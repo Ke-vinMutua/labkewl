@@ -499,10 +499,42 @@
           </div>
         </div>
 
-        <div class="accordion" id="theProcess1">
+        <div class="accordion" id="theProcess1"></div>
+
+        <div class="processTab row justify-content-evenly pt-4 mb-5">
+          <div
+            class="col-5 col-lg-4 processTabs"
+            data-bs-toggle="collapse"
+            data-bs-target="#videoEditing"
+            aria-expanded="false"
+            aria-controls="videoEditing">
+            <button class="btn btn-process" type="button">
+              Video <br />Editing
+            </button>
+            <div class="icon">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div
+            class="col-5 col-lg-4 processTabs"
+            data-bs-toggle="collapse"
+            data-bs-target="#productAnime"
+            aria-expanded="false"
+            aria-controls="productAnime">
+            <button class="btn btn-process" type="button">
+              Product<br />
+              Animation
+            </button>
+            <div class="icon">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="theProcess">
           <div
             class="accordion-collapse collapse"
-            data-bs-parent="#theProcess1"
+            data-bs-parent="#theProcess"
             id="uiux">
             <div class="processContent py-2 px-2 px-lg-5">
               <div class="row justify-content-center align-items-center mb-2">
@@ -558,7 +590,7 @@
           </div>
           <div
             class="accordion-collapse collapse"
-            data-bs-parent="#theProcess1"
+            data-bs-parent="#theProcess"
             id="webDev">
             <div class="processContent py-2 px-2 px-lg-5">
               <div class="row justify-content-center align-items-center mb-2">
@@ -614,42 +646,9 @@
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="processTab row justify-content-evenly pt-4 mb-5">
-          <div
-            class="col-5 col-lg-4 processTabs"
-            data-bs-toggle="collapse"
-            data-bs-target="#videoEditing"
-            aria-expanded="false"
-            aria-controls="videoEditing">
-            <button class="btn btn-process" type="button">
-              Video <br />Editing
-            </button>
-            <div class="icon">
-              <i class="fas fa-chevron-down"></i>
-            </div>
-          </div>
-          <div
-            class="col-5 col-lg-4 processTabs"
-            data-bs-toggle="collapse"
-            data-bs-target="#productAnime"
-            aria-expanded="false"
-            aria-controls="productAnime">
-            <button class="btn btn-process" type="button">
-              Product<br />
-              Animation
-            </button>
-            <div class="icon">
-              <i class="fas fa-chevron-down"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion" id="theProcess2">
           <div
             class="accordion-collapse collapse"
-            data-bs-parent="#theProcess2"
+            data-bs-parent="#theProcess"
             id="videoEditing">
             <div class="processContent py-3 px-3 px-lg-5">
               <div class="row justify-content-center align-items-center mb-2">
@@ -707,7 +706,7 @@
           </div>
           <div
             class="accordion-collapse collapse"
-            data-bs-parent="#theProcess2"
+            data-bs-parent="#theProcess"
             id="productAnime">
             <div class="processContent py-3 px-3 px-lg-5">
               <div class="row justify-content-center align-items-center mb-2">
